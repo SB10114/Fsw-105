@@ -1,5 +1,5 @@
 var readlineSync = require('readline-sync');
-var playerName = readlineSync.keyIn("State thy name, notable warrior. ");
+var playerName = readlineSync.question("State thy name, notable warrior. ");
 
 var introMessage = `${playerName}! You are now entering Nevarr...`;
 console.log(introMessage);
@@ -42,7 +42,7 @@ switch(Number(i))
         if  (aP > 2 || aP < 6 ){
             console.log(option);
         } else {
-            
+
         }  
         
         
