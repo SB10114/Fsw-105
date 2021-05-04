@@ -7,7 +7,7 @@
 *Break statements are used inside the switch to terminate a statements sequence. **break statements 
     are optional and if excluded the case label will continue on unhindered. If the break statement is 
     present it will terminate all other case label execution and take you out of the switch statement alltogether.
-*often used to replace a cpmlicated if else statment 
+*often used to replace a complicated if else statment 
 
 switch (expression) // will return a value when evaluated
 {
